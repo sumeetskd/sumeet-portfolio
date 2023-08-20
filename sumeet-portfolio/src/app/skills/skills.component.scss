@@ -1,0 +1,9 @@
+.skills-display{
+  display: flex;
+  flex-wrap: wrap;
+}
+.skills-content{
+  flex-basis: 20%;
+  display: flex;
+  flex-direction: column;
+}

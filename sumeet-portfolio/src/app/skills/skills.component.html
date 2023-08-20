@@ -1,0 +1,10 @@
+<p>skills works!</p>
+<div class="container">
+  <div>The skills, tools and technlogies I am good at:</div>
+  <div class="skills-display">
+    <div *ngFor="let n of techSkills" class="skills-content">
+      <img [src]="n.img" [alt]="n.name" width="30px">
+      <label [for]="n.name">{{n.name}}</label>
+    </div>
+  </div>
+</div>
